@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lintfix": "./node_modules/.bin/eslint \"src/**/*.js\" --fix",
+    "linter": "./node_modules/.bin/eslint \"src/**/*.js\""
   },
   "repository": {
     "type": "git",
