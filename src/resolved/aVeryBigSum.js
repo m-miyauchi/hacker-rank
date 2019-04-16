@@ -27,7 +27,7 @@ function readLine() {
 // Complete the aVeryBigSum function below.
 function aVeryBigSum(ar) {
   let sum = 0;
-  const length = ar.length;
+  const { length } = ar;
 
   for (let index = 0; index < length; index++) {
     sum += ar[index];
