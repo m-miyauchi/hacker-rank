@@ -1,29 +1,28 @@
 {
-  "name": "leatcode",
+  "name": "hacker-rank",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "My HackerRank answer",
   "scripts": {
     "lint": "./node_modules/.bin/eslint --fix",
     "lint-all": "./node_modules/.bin/eslint \"src/**/*.js\" --fix"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/m-miyauchi/leatcode.git"
+    "url": "git+https://github.com/m-miyauchi/hacker-rank.git"
   },
-  "author": "",
+  "author": "m-miyauchi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/m-miyauchi/leatcode/issues"
+    "url": "https://github.com/m-miyauchi/hacker-rank/issues"
   },
-  "homepage": "https://github.com/m-miyauchi/leatcode#readme",
+  "homepage": "https://github.com/m-miyauchi/hacker-rank#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-plugin-import": "^2.16.0",
-    "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-react": "^7.12.4"
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.18.3"
   }
 }
