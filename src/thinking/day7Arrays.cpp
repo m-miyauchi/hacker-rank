@@ -1,10 +1,10 @@
-#include <stdc++.h>
+#include <bits/stdc++.h>
 
 using namespace std;
 
 vector<string> split_string(string);
 
-
+// g++
 int main()
 {
     int n;
@@ -22,6 +22,14 @@ int main()
         int arr_item = stoi(arr_temp[i]);
 
         arr[i] = arr_item;
+    }
+    std::reverse(arr.begin(), arr.end());
+
+    std::size_t size = arr.size();
+
+    for (size_t i = 0; i < size; i++)
+    {
+        std::cout << arr[i] << std::endl;
     }
 
     return 0;
